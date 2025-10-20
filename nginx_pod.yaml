@@ -12,4 +12,4 @@ spec:
       image: nginx:1.27.5
       ports:
         - containerPort: 80
-      resources: { request: { memory: "64Mi", cpu: "250m" }, limits: { memory: "64Mi", cpu: "500m" } }
+      resources: { request: { memory: "64Mi", cpu: "250m" }, limits: { memory: "64Mi", cpu: "500m" } 
